@@ -10,10 +10,6 @@ public:
         return 0.5 * b * h;
     }
 
-    // Function to calculate area using three sides (simplified)
-    double area(double a, double b, double c) {
-        return (a + b + c) / 2;  // Just returning semi-perimeter (Easy Version)
-    }
 
     // Overloaded Assignment Operator (=)
     void operator=(const Triangle &t) {
