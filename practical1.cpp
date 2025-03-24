@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>  // For pow function
-#include <cstdlib> // For atoi (to convert command line input)
+#include <cstdlib> // For Ascii to integer conversion (to convert command line input)
 
 using namespace std;  
 
