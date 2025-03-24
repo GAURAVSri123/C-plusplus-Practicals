@@ -36,7 +36,7 @@ int compareStrings(char *str1, char *str2) {
     return (*str1 - *str2);
 }
 
-// Function to calculate the length of the string using pointers
+// Function to calculate the length of the string
 int stringLength(char *str) {
     int length = 0;
     while (*str != '\0') {
