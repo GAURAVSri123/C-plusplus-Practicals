@@ -2,7 +2,7 @@
 #include <cmath>  // For pow function
 #include <cstdlib> // For atoi (to convert command line input)
 
-using namespace std;
+using namespace std;  
 
 double sumSeries(int n) {
     double sum = 0.0; // Initialize sum
@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     if (argc > 1) {
         n = atoi(argv[1]); // Convert argument to integer
     } else {
-        // Prompt user to enter the value
+        //  enter the value
         cout << "Enter the number of terms (n): ";
         cin >> n;
     }
