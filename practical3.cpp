@@ -1,5 +1,6 @@
 // write the occurence of alphabets ...
 #include <iostream>
+# inlcude<string>
 using namespace std;
 
 int main() {
